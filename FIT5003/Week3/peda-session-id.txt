@@ -1,0 +1,5 @@
+break check_authentication
+disable $bpnum
+break /home/seed/Downloads/auth_overflow3.c:14
+disable $bpnum
+
